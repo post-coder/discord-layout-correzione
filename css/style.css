@@ -38,9 +38,9 @@ nav {
 }
 
 #links ul {
-
   display: flex;
   flex-direction: row;
+  
   justify-content: space-between;
   align-items: center;
   gap: 34px;
@@ -55,6 +55,16 @@ nav {
   /* test */
   
 }
+/* test */
+#links li:nth-child(4) {
+  width: 100px;
+}
+
+#links li:nth-child(2) {
+  width: 40px;
+}
+/* /test */
+
 
 #login {
   width: 100px;
@@ -63,3 +73,63 @@ nav {
   /* test */
 
 }
+
+
+
+/* header  */
+header {
+  background-color: #00ffff30;
+
+}
+
+header > .container-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 400px;
+
+  padding: 40px 0;
+}
+
+header #header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  
+  width: 100%;
+  max-width: 600px;
+
+  text-align: center;
+}
+
+header #header-inner > * {
+  background-color: #0000ff20;
+  border: 1px dotted black;
+  /* test */
+}
+
+header #header-inner h1 {
+  height: 1.6em;
+  /* test */
+  margin-bottom: 0.4em;
+}
+
+header #header-inner p {
+  height: 4em;
+  /* test */
+}
+
+header #header-inner .buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+
+header #header-inner .buttons-container button {
+  height: 2.5em;
+  width: 150px;
+}
+
+/* /header  */
