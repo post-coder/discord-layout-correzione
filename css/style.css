@@ -154,11 +154,11 @@ main section .section-inner {
 
 }
 
-main section:nth-child(even) {
+main section:nth-of-type(even) {
   background-color: #2244ff20;
 }
 
-main section:nth-child(even) .section-inner  {
+main section:nth-of-type(even) .section-inner  {
   flex-direction: row-reverse;
 }
 
