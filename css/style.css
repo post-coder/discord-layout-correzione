@@ -102,7 +102,6 @@ header #header-inner {
 
   text-align: center;
 }
-
 header #header-inner > * {
   background-color: #0000ff20;
   border: 1px dotted black;
@@ -133,3 +132,49 @@ header #header-inner .buttons-container button {
 }
 
 /* /header  */
+
+
+/* main */
+main section {
+  background-color: #2244ff20;
+  /* test */
+
+  padding: 3em 0;
+}
+
+/* test */
+main section > .section-inner {
+  min-height: 300px;
+  /* border: 1px dotted black; */
+}
+/* /test */
+
+
+
+main section .section-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+
+}
+
+main section:nth-child(even) .section-inner  {
+  flex-direction: row-reverse;
+}
+
+main section .section-image {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  /* test */
+}
+
+main section .section-text {
+  background-color: #ff000040;
+  height: 300px;
+  /* test */
+  flex-grow: 1;
+
+  max-width: 60%;
+  min-width: 30%;
+}
