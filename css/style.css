@@ -1,11 +1,34 @@
 .container-centered {
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.btn {
+  padding: 1em 1.2em;
+  border-radius: 50px;
+
+  border-color: transparent;
+}
+
+.btn-primary  {
+  background-color: white;
+  color: #333;
+}
+
+/* assets ^ */
+
+body {
+  font-family: sans-serif;
+}
+
 nav {
-  
+  background-color: #255ee9;
+  color: white;
+}
+
+nav a {
+  color: white;
 }
 
 #nav-inner {
@@ -16,7 +39,6 @@ nav {
   width: 100%;
   height: 70px;
 
-  background-color: green;
 }
 
 
@@ -25,11 +47,12 @@ nav {
 }
 
 #logo {
-  width: 100px;
-  height: 70px;
-  background-color: darkgreen;
-  /* test */
+  display: flex;
+  align-items: center;
+}
 
+#logo img{
+ width: 100%;
 }
 
 #links {
@@ -49,28 +72,13 @@ nav {
 }
 
 #links li {
-  background-color: darkgreen;
-  width: 60px;
-  height: 30px;
-  /* test */
   
 }
-/* test */
-#links li:nth-child(4) {
-  width: 100px;
-}
-
-#links li:nth-child(2) {
-  width: 40px;
-}
-/* /test */
 
 
 #login {
-  width: 100px;
-  height: 70px;
-  background-color: darkgreen;
-  /* test */
+  display: flex;
+  align-items: center;
 
 }
 
